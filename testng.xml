@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  
+  <classes>
+    <class name="C:\Users\Arti\workspace1\walmart12\src\test\java\walmartHomepageTEST\TestStoreAvailabilty.java">
+     <methods>
+        <include name="TestStoreAvailabilty" />
+       <exclude name="WalmartSearchItem.java"  />
+      </methods>
+    </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
